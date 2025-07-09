@@ -1,0 +1,25 @@
+.container {
+  background-color: #1e293b; /* dark blue background */
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topic-bubble {
+  background-color: #00c78c; /* greenish button */
+  color: white;
+  padding: 12px 24px;
+  margin: 10px 0;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  width: fit-content;
+  transition: transform 0.2s ease;
+}
+
+.topic-bubble:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
